@@ -1,6 +1,12 @@
 package org.example;
 
+import java.util.ArrayList;
+
 public class Common_Element_In_3 {
+
+    public static ArrayList<Integer>commonElement(int[] a,int[] b,int[] c){
+
+    }
 
     public static void main(String[] args) {
 
