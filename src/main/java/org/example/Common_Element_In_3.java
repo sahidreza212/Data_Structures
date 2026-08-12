@@ -36,7 +36,7 @@ public class Common_Element_In_3 {
         ArrayList<Integer> common = new ArrayList<>();
         for(Map.Entry<Integer, Integer>entry : count.entrySet()){
             if(entry.getValue()==3){
-                common.add(entry.getValue());
+                common.add(entry.getKey());
             }
         }
 
@@ -50,6 +50,17 @@ public class Common_Element_In_3 {
         int[] a = {1, 5, 10, 20, 30};
         int[] b = {5, 13, 15, 20};
         int[] c = {5, 20};
+
+        ArrayList<Integer> common = commonElement(a, b, c);
+
+        if (common.isEmpty()) {
+            System.out.println("[]");
+        }
+        else {
+            for (int ele : common) {
+                System.out.print(ele + " ");
+            }
+        }
 
     }
 }
