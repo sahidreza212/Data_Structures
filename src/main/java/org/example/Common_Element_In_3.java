@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -39,6 +40,9 @@ public class Common_Element_In_3 {
             }
         }
 
+        // Sorting element
+        Collections.sort(common);
+        return common;
     }
 
     public static void main(String[] args) {
