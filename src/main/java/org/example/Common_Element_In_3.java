@@ -1,11 +1,22 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Common_Element_In_3 {
 
     public static ArrayList<Integer>commonElement(int[] a,int[] b,int[] c){
+        Map<Integer , Integer>count = new HashMap<>();
 
+        // process arr 1
+        for(int i = 0; i<a.length;i++){
+            if(i == 0 || a[i] != a[i-1]){
+                count.put(a[i],1);
+            }
+        }
+
+        // process arr 2
     }
 
     public static void main(String[] args) {
