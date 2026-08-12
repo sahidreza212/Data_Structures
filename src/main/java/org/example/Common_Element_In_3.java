@@ -1,6 +1,6 @@
 package org.example;
 
-public class Solution {
+public class Common_Element_In_3 {
     public static void main(String[] args) {
 
     }
