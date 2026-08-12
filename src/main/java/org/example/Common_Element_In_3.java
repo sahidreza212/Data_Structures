@@ -17,6 +17,13 @@ public class Common_Element_In_3 {
         }
 
         // process arr 2
+        for(int i = 0; i<b.length;i++){
+            if(i == 0 || b[i] != b[i-1]){
+                if(count.getOrDefault(b[i],0)==1);
+                count.put(b[i],2);
+            }
+        }
+
     }
 
     public static void main(String[] args) {
