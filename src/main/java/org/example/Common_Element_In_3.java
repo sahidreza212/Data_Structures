@@ -24,6 +24,14 @@ public class Common_Element_In_3 {
             }
         }
 
+        // process array 3
+        for(int i = 0; i<c.length;i++){
+            if(i == 0 || c[i] != c[i-1]){
+                if(count.getOrDefault(c[i],0)==2);
+                count.put(c[i],3);
+            }
+        }
+
     }
 
     public static void main(String[] args) {
