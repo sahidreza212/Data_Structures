@@ -31,6 +31,13 @@ public class Common_Element_In_3 {
                 count.put(c[i],3);
             }
         }
+        // Collect the common element
+        ArrayList<Integer> common = new ArrayList<>();
+        for(Map.Entry<Integer, Integer>entry : count.entrySet()){
+            if(entry.getValue()==3){
+                common.add(entry.getValue());
+            }
+        }
 
     }
 
