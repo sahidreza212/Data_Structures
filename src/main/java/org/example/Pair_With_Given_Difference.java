@@ -18,7 +18,7 @@ public class Pair_With_Given_Difference {
     public static void main(String[] args) {
 
         int arr[] = {5,20,3,2,50,80};
-        int x = 78;
+        int x = 29;
 
         if(findPair(arr,x)){
             System.out.println("True");
