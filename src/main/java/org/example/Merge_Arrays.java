@@ -11,7 +11,13 @@ public class Merge_Arrays {
                 int last = a[a.length-1];
                 int j = a.length-2;
 
+                while (j >= 0 && a[j] > b[i]){
+                    a[j+1] = a[j];
+                    j--;
+                }
 
+                a[j+1] = b[i];
+                b[i] = last;
             }
         }
 
