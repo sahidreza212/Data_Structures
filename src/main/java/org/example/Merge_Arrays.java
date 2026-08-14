@@ -2,6 +2,9 @@ package org.example;
 
 public class Merge_Arrays {
 
+    public static void mergeArrays(int a[] , int b[]){
+
+    }
 
     public static void main(String[] args) {
 
