@@ -27,5 +27,6 @@ public class Merge_Arrays {
 
         int a[] = {1,5,9,10,15,20};
         int b[] = {2,3,8,13};
+        mergeArrays(a,b);
     }
 }
