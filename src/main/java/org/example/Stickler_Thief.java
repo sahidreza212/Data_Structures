@@ -9,7 +9,6 @@ public class Stickler_Thief {
         if(n==0){
             return arr[0];
         }
-
         int pick = arr[n-1]+maxLootRec(arr,n-2);
         int notPick = maxLootRec(arr,n-1);
 
@@ -18,7 +17,6 @@ public class Stickler_Thief {
 
     public static int findMaxSum(int [] arr){
         int n = arr.length;
-
         return maxLootRec(arr,n);
     }
     public static void main(String[] args) {
