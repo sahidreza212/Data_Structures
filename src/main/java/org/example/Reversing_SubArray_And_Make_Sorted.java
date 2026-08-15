@@ -46,7 +46,13 @@ public class Reversing_SubArray_And_Make_Sorted {
     }
     public static void main(String[] args) {
 
-        int arr [] = {1,2,5,4,3};
+        int arr [] = {1,2,4,5,3};
         int n = arr.length;
+
+        if(checkReverse(arr,n)){
+            System.out.println("Yes");
+        }else {
+            System.out.println("No");
+        }
     }
 }
