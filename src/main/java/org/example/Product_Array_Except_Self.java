@@ -24,6 +24,11 @@ public class Product_Array_Except_Self {
     public static void main(String[] args) {
 
         int arr[] = {10,3,5,6,2};
+        int [] res = productExceptSelf(arr);
+
+        for(int val : res){
+            System.out.print(val+" ");
+        }
     }
 
 }
