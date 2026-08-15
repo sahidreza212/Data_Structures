@@ -18,6 +18,16 @@ public class Find_Duplicates {
                     freqMap.getOrDefault(arr[i],0)+1);
         }
 
+        for(Map.Entry<Integer,Integer> entry : freqMap.entrySet()){
+            if(entry.getValue()>1){
+                result.add(entry.getKey());
+            }
+        }
+
+        if(result.isEmpty()){
+            result.add(-1);
+        }
+        return result;
 
     }
     public static void main(String[] args) {
