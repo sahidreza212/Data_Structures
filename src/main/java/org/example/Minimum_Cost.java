@@ -16,6 +16,7 @@ public class Minimum_Cost {
     }
     public static void main(String[] args) {
 
-        int arr[] = {1,100,101};
+        int arr[] = {5,5,5,5};
+        System.out.print(minCost(arr));
     }
 }
