@@ -1,6 +1,8 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class Sum_Of_4 {
 
@@ -8,6 +10,25 @@ public class Sum_Of_4 {
 
         ArrayList<ArrayList<Integer>> res = new ArrayList<>();
         int n = arr.length;
+
+        for(int i = 0; i < n; i++){
+            for( int j = i+1; j < n ;j++){
+                for(int k = j+1; k < n; k++){
+                    for( int l = k+1;l < n;l++){
+                        if(arr[i] + arr[j] + arr[k] + arr[l] == target){
+
+                            ArrayList<Integer> curr = new ArrayList<>(Arrays.asList(arr[i], arr[j], arr[k] ,arr[l]));
+
+                            // sort  to remove duplicate
+                            Collections.sort(curr);
+
+                            //check for uniqueness
+
+                        }
+                    }
+                }
+            }
+        }
     }
     public static void main(String[] args) {
 
