@@ -25,6 +25,7 @@ public class Median_Of_Two_Sorted_Array {
 
         int []a = {-5,3,6,12,15};
         int []b = {-12,-10,-6,-3,4,10};
+        System.out.println(medianOf2(a,b));
 
     }
 }
