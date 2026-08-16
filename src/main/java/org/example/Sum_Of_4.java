@@ -6,6 +6,8 @@ public class Sum_Of_4 {
 
     public static ArrayList<ArrayList<Integer>> fourSum(int arr[] , int target){
 
+        ArrayList<ArrayList<Integer>> res = new ArrayList<>();
+        int n = arr.length;
     }
     public static void main(String[] args) {
 
