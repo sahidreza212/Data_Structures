@@ -23,12 +23,15 @@ public class Sum_Of_4 {
                             Collections.sort(curr);
 
                             //check for uniqueness
-
+                            if(!res.contains(curr)){
+                                res.add(curr);
+                            }
                         }
                     }
                 }
             }
         }
+        return res;
     }
     public static void main(String[] args) {
 
