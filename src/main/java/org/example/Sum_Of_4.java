@@ -37,6 +37,14 @@ public class Sum_Of_4 {
 
         int arr [] = {10,2,3,4,5,7,8};
         int target = 23;
+        ArrayList<ArrayList<Integer>> ans = fourSum(arr,target);
+
+        for(ArrayList<Integer> v : ans){
+            for(int x : v){
+                System.out.print(x+" ");
+            }
+            System.out.println();
+        }
     }
 
 }
